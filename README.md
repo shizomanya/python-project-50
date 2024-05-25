@@ -34,6 +34,8 @@ lint: poetry run flake8
 
 `gendiff -h`
 
+[![asciicast](https://asciinema.org/a/gMh0PLOkydsTaMlcbqxGAgG7h.svg)](https://asciinema.org/a/gMh0PLOkydsTaMlcbqxGAgG7h)
+
 **Running a script with default settings:**
 
 `gendiff <file_path1> <file_path2>`
