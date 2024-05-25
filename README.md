@@ -5,7 +5,7 @@
 
 <a href="https://codeclimate.com/github/shizomanya/python-project-50/maintainability"><img src="https://api.codeclimate.com/v1/badges/1dd0509a1bde548c87e2/maintainability" /></a>
 
-<a href="https://codeclimate.com/github/shizomanya/python-project-50/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1dd0509a1bde548c87e2/test_coverage" /></a>
+<a href="https://codeclimate.com/github/shizomanya/python-project-lvl2/test_coverage"><img src="https://api.codeclimate.com/v1/badges/6528a021231449c7b4a7/test_coverage" /></a>
 
 # GENDIFF (Difference Generator)
 ### Description:
