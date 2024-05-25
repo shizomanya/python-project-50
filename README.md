@@ -40,14 +40,18 @@ lint: poetry run flake8
 
 `gendiff <file_path1> <file_path2>`
 
-**Comparing two plain files: JSON.**
+**Comparing two files with a recursive structure: JSON.**
 
+[![asciicast](https://asciinema.org/a/navH14NXTpHdp8sk9NCljU0Sh.svg)](https://asciinema.org/a/navH14NXTpHdp8sk9NCljU0Sh)
 
+**Comparing two files with a recursive structure: YAML(YML).**
 
-**Comparing two plain files: YAML(YML).**
+[![asciicast](https://asciinema.org/a/NOGewkSqrHp4Fnu4tNeSmTRYI.svg)](https://asciinema.org/a/NOGewkSqrHp4Fnu4tNeSmTRYI)
 
+**Plain format**
 
+[![asciicast](https://asciinema.org/a/3An1lox6Dy9CxmWp6sggqMPlL.svg)](https://asciinema.org/a/3An1lox6Dy9CxmWp6sggqMPlL)
 
-**Comparing two files with a recursive structure: YAML(YML) или JSON.**
+**JSON output**
 
-
+[![asciicast](https://asciinema.org/a/kvOjLQ2YQwHQBpNsGov49XCuc.svg)](https://asciinema.org/a/kvOjLQ2YQwHQBpNsGov49XCuc)
