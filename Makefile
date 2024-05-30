@@ -12,7 +12,9 @@ test:
 
 make test-coverage:
 	poetry run pytest --cov=gendiff --cov-report xml
-
+check:
+    flake8 .
+    pytest --cov=.
 package-install:
 	poetry build
 	python3 -m pip install --user dist/*.whl.

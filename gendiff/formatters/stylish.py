@@ -39,10 +39,7 @@ def stylish_format(diff_result, depth=0):
                     key=key,
                     value=format_value(node['value'], depth + 1)
                 ))
-    result = '{'
-    for line in lines:
-        result += f'\n{line}'
-    result += '\n' + closing_indent + '}'
+    result = '{\n' + '\n'.join(lines) + '\n' + closing_indent + '}'
     return result
 
 
@@ -51,14 +48,9 @@ def format_value(value, depth):
     if isinstance(value, dict):
         lines = []
         for k, v in value.items():
-            line = f"{indent}    {k}: {format_value(v, depth + 1)}"
-            lines.append(line)
-        result = '{'
-        for line in lines:
-            result += f'\n{line}'
-        result += '\n' + indent + '}'
+            lines.append(f"{indent}    {k}: {format_value(v, depth + 1)}")
+        result = '{\n' + '\n'.join(lines) + '\n' + indent + '}'
         return result
-
     elif value is None:
         return 'null'
     elif isinstance(value, bool):
